@@ -26,14 +26,19 @@ export default function Home() {
             <div className="tool-cta">Bắt đầu tính →</div>
           </Link>
 
-          <div className="tool-card disabled">
-            <div className="tool-icon">🏢</div>
-            <h2 className="tool-title">Tính Thuế Doanh Nghiệp</h2>
+          <Link href="/corporate-tax" className="tool-card">
+            <div className="tool-icon">�</div>
+            <h2 className="tool-title">Tính Thuế Hộ Kinh Doanh Cá Thể</h2>
             <p className="tool-description">
-              Tính thuế thu nhập doanh nghiệp và các khoản thuế liên quan
+              Tính thuế VAT và TNCN cho hộ kinh doanh cá thể (spa, làm đẹp, bán lẻ...)
             </p>
-            <div className="coming-soon">Sắp ra mắt</div>
-          </div>
+            <div className="tool-features">
+              <span className="feature-tag">✓ 11 ngành nghề</span>
+              <span className="feature-tag">✓ VAT + TNCN</span>
+              <span className="feature-tag">✓ Miễn thuế tự động</span>
+            </div>
+            <div className="tool-cta">Bắt đầu tính →</div>
+          </Link>
 
           <div className="tool-card disabled">
             <div className="tool-icon">🏠</div>
